@@ -8,6 +8,7 @@ gem 'sqlite3', group: [:development, :test]
 gem 'pg', group: :production
 
 # Heroku support
+gem 'thin' # a simple web server that's way better than WEBrick
 gem 'rails_12factor', group: :production
 
 # Use SCSS for stylesheets
